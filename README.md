@@ -28,4 +28,7 @@ The **archive_clean** script removes all older archives but keeps the last 50. Y
 Other **Settings** can be found in the scripts itself. Ther are imoirtent points:
 * Do not put the backups into the save game folder itself. This will conflict with Steams savegame synchronization. 
 * When changing setting like the archive name, do not a underscore characters to it and check if the resulting archives contain exactly one single _ character.
-
+* Make sure the scripts are executable
+```console
+foo@bar:~$ chmod +x tld_archive_*
+```
